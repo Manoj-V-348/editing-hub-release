@@ -1,0 +1,188 @@
+footer {
+  text-align: center;
+  grid-area: footer;
+}
+h1 {
+  margin-bottom: 2%;
+}
+.footer--container {
+  border: 1px solid #00c3ff;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "donate"
+    "contact";
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+.donate {
+  padding-bottom: 2%;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid white;
+  grid-area: donate;
+}
+.contact {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  grid-area: contact;
+}
+.im--broke {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.inner--heading {
+  font-size: 1rem;
+}
+.sad--face {
+  transition: all 1s ease-in;
+  width: 40px;
+  height: auto;
+}
+.sad--face:hover {
+  opacity: 0;
+}
+.buttons {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.membership--button {
+  background-color: #c0df34;
+  color: black;
+  font-size: 0.8rem;
+}
+.subscribe--button {
+  background-color: #c60000;
+  color: white;
+}
+.membership--button,
+.subscribe--button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.button {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  scale: 1.1;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+}
+.dump--mail {
+  font-size: 0.6rem;
+  text-decoration: underline;
+  color: white;
+  border-radius: 2px;
+  padding: 2px;
+  cursor: pointer;
+}
+.text--area {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #00c3ff;
+  color: white;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  margin-top: 5px;
+}
+#feedback {
+  padding-bottom: 60px;
+}
+.submit--form {
+  margin-top: 5px;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #00c3ff;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+form {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.feedback--message {
+  font-size: 0.8rem;
+  background-color: white;
+  color: black;
+  width: fit-content;
+}
+
+@media (min-width: 1024px) {
+  .footer--container {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "donate contact";
+  }
+  .donate {
+    border-bottom: none;
+    border-right: 1px solid white;
+    width: 100%;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .buttons {
+    margin-top: 5%;
+    margin-bottom: auto;
+  }
+  .inner--heading {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer--section {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1100px 1fr;
+    grid-template-areas: ". footer .";
+  }
+  main {
+    grid-area: main;
+  }
+}
+.credits {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: white;
+}
+.credits a {
+  color: white;
+}
+.credits > p {
+  margin-left: 10px;
+}

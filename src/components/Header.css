@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", "sans-serif";
+  scroll-behavior: smooth;
+}
+header {
+  height: auto;
+}
+nav {
+  height: auto;
+  display: flex;
+  gap: 10px;
+  padding: 2%;
+  position: relative;
+}
+.header-elements {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.header-elements:hover {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+.mavoc--logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+}
+nav > h1 {
+  margin-right: auto;
+  margin-left: 0;
+  font-size: 1rem;
+}
+nav > a {
+  font-size: 0.7rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 2.5rem;
+  right: 1%;
+  font-size: 0.6rem;
+}
+.dropdown-menu > ul > li {
+  list-style-type: none;
+}
+
+section {
+  height: auto;
+  word-wrap: break-word;
+  text-align: center;
+}
+section > h1 {
+  color: #ffffff;
+  text-align: center;
+  word-wrap: break-word;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.textbox--container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: minmax(auto, 1fr);
+  gap: 15px;
+  margin-top: 10px;
+}
+.textbox {
+  background-color: rgba(248, 248, 14, 0.7);
+  color: #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  justify-self: center;
+  padding: 15px;
+}
+.textbox1 {
+  grid-row-start: 0;
+  grid-row-end: 1;
+}
+.textbox2 {
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+.meme-template {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+  filter: grayscale(2);
+}
+
+.meme-template:hover {
+  filter: grayscale(0);
+}
+.bold-black,
+.bold-green {
+  font-weight: bold;
+  color: red;
+  background-color: black;
+}
+.bold-green {
+  color: rgb(0, 255, 0);
+}
+
+.textbox > h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.textbox > p {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  header {
+    height: auto;
+  }
+  nav > h1 {
+    font-size: 1.5rem;
+  }
+  nav > a {
+    font-size: 1rem;
+  }
+  .mavoc--logo {
+    width: 3rem;
+    height: auto;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .textbox--container {
+    width: 100%;
+    height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "box1 box2";
+  }
+  .textbox1 {
+    grid-area: box1;
+    justify-self: flex-end;
+  }
+  .textbox2 {
+    grid-area: box2;
+    justify-self: start;
+  }
+  .meme-template {
+    max-height: 100%;
+  }
+  .textbox > h3 {
+    font-size: 1.5rem;
+  }
+  .textbox > p {
+    font-size: 1rem;
+  }
+  section > h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1200px 1fr;
+    grid-template-areas:
+      ". navbar ."
+      ". section .";
+  }
+  nav {
+    grid-area: navbar;
+    max-width: 1200px;
+  }
+  section {
+    grid-area: section;
+    max-width: 1200px;
+  }
+  nav > h1 {
+    font-size: 2rem;
+  }
+  nav > a {
+    font-size: 1.5rem;
+  }
+  .mavoc--logo {
+    width: 4rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    height: 100dvh;
+  }
+}

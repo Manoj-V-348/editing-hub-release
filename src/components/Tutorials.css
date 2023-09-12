@@ -1,0 +1,96 @@
+.tutorials--area {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #00c3ff;
+  width: 80%;
+  align-self: center;
+  border-radius: 10px;
+  color: black;
+}
+
+.tutorials--container {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "PrAe"
+    "DvR";
+  width: 80%;
+}
+.premiere-pro--container {
+  grid-area: PrAe;
+}
+.davinci--container {
+  grid-area: DvR;
+}
+.premiere-pro--container,
+.davinci--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.logo--area {
+  margin-bottom: 2%;
+  display: flex;
+  gap: 10px;
+}
+.software--logo {
+  max-width: 30px;
+  height: auto;
+  transform: rotate(-6deg);
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.software--logo:hover {
+  transform: rotate(0deg);
+}
+iframe {
+  display: block;
+}
+.tutorialThumbnail,
+.tutorialVideo {
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  box-sizing: content-box;
+}
+.tutorialVideo {
+  height: 105px;
+}
+
+@media (min-width: 768px) {
+  .tutorials--container {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "PrAe DvR";
+  }
+  .software--logo {
+    max-width: 50px;
+  }
+  .tutorial--title {
+    font-size: 2rem;
+    padding-top: 1%;
+  }
+  .tutorialVideo {
+    height: 125px;
+  }
+}
+@media (min-width: 1024px) {
+  .tutorialVideo,
+  .tutorialThumbnail {
+    height: 200px;
+  }
+}
+@media (min-width: 1440px) {
+  .tutorials--area {
+    grid-area: main;
+  }
+}

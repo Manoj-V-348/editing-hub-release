@@ -1,0 +1,58 @@
+export default [
+  {
+    name: "Comic Style Font",
+    imageLocation: "/comic-preset-sample.webp",
+    videoURL: "https://www.youtube.com/embed/tSCZCpNGRus?si=tPbpphrrfEhUf1wa",
+    presetFile: "/Comic-font-preset.zip",
+    thumbnail: "/comic-font-thumbnail.webp",
+  },
+  {
+    name: "Deep Fried",
+    imageLocation: "/deep-fried-sample.webp",
+    videoURL: "https://www.youtube.com/embed/1S5YEHuOV_4?si=WRfj2k3rAvGpXCj4",
+    presetFile: "/Deep-fried-preset.zip",
+    thumbnail: "/deep-fried-thumbnail.webp",
+  },
+  {
+    name: "Black Vignette",
+    imageLocation: "/intense-edge-sample.webp",
+    videoURL: "https://www.youtube.com/embed/gIkb_LFTtPI?si=U6g7RWHIixQXX4ZZ",
+    presetFile: "/Black-vignette-preset.zip",
+    thumbnail: "/black-vignette-thumbnail.webp",
+  },
+  {
+    name: "Uncanny Face",
+    imageLocation: "/uncanny-face-sample.webp",
+    videoURL: "https://www.youtube.com/embed/qzN1kawMNPo?si=fr55J1RE98_zdzOv",
+    presetFile: "/Uncanny-face-preset.zip",
+    thumbnail: "/uncanny-face-thumbnail.webp",
+  },
+  {
+    name: "Wholesome Effect",
+    imageLocation: "/wholesome-preset-sample.webp",
+    videoURL: "https://www.youtube.com/embed/eo7ErxAVgao?si=HBT83bUpzuE0VI-y",
+    presetFile: "/Wholesome-effect-preset.zip",
+    thumbnail: "/wholesome-effect-thumbnail.webp",
+  },
+  {
+    name: "Distort Audio",
+    imageLocation: "/audio-preset.webp",
+    videoURL: "https://www.youtube.com/embed/djm2_v0-J_o?si=FWiUIyFyhc4_Iv3x",
+    presetFile: "/Distort-audio-preset.zip",
+    thumbnail: "/distort-audio-thumbnail.webp",
+  },
+  {
+    name: "Pop-in Text",
+    imageLocation: "/pop-in-sample-preset.webp",
+    videoURL: "https://www.youtube.com/embed/DrlE2zB1lfM?si=QuLS8298eNbwjPpm",
+    presetFile: "/Pop-in-font-preset.zip",
+    thumbnail: "/pop-in-text-thumbnail.webp",
+  },
+  {
+    name: "Smooth Shake",
+    imageLocation: "/smooth-shake-preset-sample.webp",
+    videoURL: "https://www.youtube.com/embed/Jt72b8SivQc?si=qaFeA9dnNHf3E6Rz",
+    presetFile: "/Smooth-shake-preset.zip",
+    thumbnail: "/smooth-shake-thumbnail.webp",
+  },
+];
