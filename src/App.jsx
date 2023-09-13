@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Header from "./components/header";
+import Header from "./components/Header.jsx";
 import Presets from "./components/Presets";
 import Tutorials from "./components/Tutorials";
 import Footer from "./components/Footer";
