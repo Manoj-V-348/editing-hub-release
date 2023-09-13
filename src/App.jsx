@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 
 import Header from "./components/header";
 import Presets from "./components/Presets";
@@ -50,7 +51,6 @@ function App() {
             All the best in your editing journey. 😄👍
           </p>
         </div>
-
         <Footer />
       </div>
     </>
