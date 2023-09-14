@@ -1,9 +1,0 @@
-User-agent: *
-
-# Allow indexing of specific areas
-Disallow: /header/
-
-
-# Allow indexing of the Presets download area and Contact area
-Allow: /presets/
-Allow: /contact/
