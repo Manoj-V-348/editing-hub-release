@@ -4,6 +4,8 @@ import { useForm, ValidationError } from "@formspree/react";
 import Form from "./Form";
 
 import sadFace from "../images/sademoji.webp";
+import discord from "../images/discordLogo.webp";
+import instagram from "../images/instaLogo.webp";
 
 import "./Footer.css";
 
@@ -33,6 +35,29 @@ export default function Footer() {
               <a href="https://www.youtube.com/channel/UC7gKPZVxUPWaVQiVJxMHuUA">
                 <button className="subscribe--button button">Subscribe </button>
               </a>
+            </div>
+            <div className="social--media">
+              <p className="bold--text">Social Media</p>
+              <div className="social--icons">
+                <a href="https://discord.com/users/Mavoc_YT#1699">
+                  <img
+                    src={discord}
+                    alt="discord"
+                    width={50}
+                    height={50}
+                    className="discord"
+                  />
+                </a>
+                <a href="https://www.instagram.com/manoj__vm/">
+                  <img
+                    src={instagram}
+                    alt="instagram"
+                    width={50}
+                    height={50}
+                    className="insta"
+                  />
+                </a>
+              </div>
             </div>
           </div>
           <div className="contact">
