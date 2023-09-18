@@ -45,7 +45,6 @@ export default function Presets(props) {
                 src={props.image}
                 alt="reference-image"
                 className="preset--reference-image"
-                loading="lazy"
                 width={300}
                 height={300}
               />
