@@ -62,15 +62,15 @@ export default function Tutorials(props) {
                   src="/davinci-logo.webp"
                   alt="Davinci Resolve"
                   className="software--logo"
-                  width={50}
-                  height={50}
+                  width={282}
+                  height={282}
                 />
                 <img
                   src="/capcut-logo.webp"
                   alt="Capcut"
                   className="software--logo"
-                  width={50}
-                  height={50}
+                  width={300}
+                  height={300}
                 />
               </div>
               {videoVisible ? (

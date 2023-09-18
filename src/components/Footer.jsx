@@ -21,8 +21,8 @@ export default function Footer() {
               <img
                 src={sadFace}
                 alt="I'm broke"
-                width={40}
-                height={40}
+                width={338}
+                height={299}
                 className="sad--face"
               />
             </div>

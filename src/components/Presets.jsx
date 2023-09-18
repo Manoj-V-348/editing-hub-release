@@ -33,8 +33,8 @@ export default function Presets(props) {
                   onClick={showVideo}
                   className="thumbnail"
                   style={{ cursor: "pointer" }}
-                  width={400}
-                  height={300}
+                  width={960}
+                  height={540}
                 />
               )}
             </div>
