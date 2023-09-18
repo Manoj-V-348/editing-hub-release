@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="social--media">
               <p className="bold--text">Social Media</p>
               <div className="social--icons">
-                <a href="https://discord.com/users/Mavoc_YT#1699">
+                <a href="https://discord.com/users/829233578910154782">
                   <img
                     src={discord}
                     alt="discord"
